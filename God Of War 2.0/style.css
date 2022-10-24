@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.quadros {
+    background-color: red;
+
+    width: 250px;
+    height: 200px;
+}
+
+.botao{
+    background-color: black;
+    color: red;
+    width: 60px;
+    height: 30px;
+}
