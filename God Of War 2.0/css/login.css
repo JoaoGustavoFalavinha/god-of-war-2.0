@@ -152,3 +152,54 @@ a:hover{
 a:visited{
     color: rgb(17, 0, 255);
 }
+
+
+@media (max-width: 480px) {
+    .container{
+        height: 500px;
+        width: 350px;
+    }
+
+    header{
+        height: 150px;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;
+        position: absolute;
+        top: 105px;
+        right: 73px;
+        font-weight: bolder;
+        font-size: 20px;
+        color: white;
+    }
+
+    #logo {
+        width: 350px;
+        margin-left: 60px;
+        margin-top: 5px;
+    }
+
+    #pos_painel{
+        top: 87%;
+        right: 26%;
+    }
+
+    .titulo{
+        font-size: 20px;
+        padding-top: 11px;
+    }
+
+    .container_h1{
+        height: 67px;
+    }
+
+    #logo_login{
+        padding-top: 20px;
+    }
+
+    #dados{
+        margin: -23px 50px
+    }
+}
