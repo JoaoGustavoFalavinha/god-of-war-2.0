@@ -173,8 +173,8 @@ a:visited{
 
     #logo {
         width: 250px;
-        margin-left: 130px;
-        margin-top: 5px;
+        margin: auto;
+        display: block;
     }
 
     #pos_painel{
