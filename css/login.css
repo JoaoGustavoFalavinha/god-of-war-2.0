@@ -154,35 +154,30 @@ a:visited{
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
     .container{
         height: 500px;
-        width: 350px;
+        width: 330px;
     }
 
     header{
-        height: 150px;
+        height: 110px;
     }
 
     ul{
-        display: flex;
-        list-style: none;
-        position: absolute;
-        top: 105px;
-        right: 73px;
-        font-weight: bolder;
-        font-size: 20px;
-        color: white;
+        top: 80px;
+        right: 41px;
+        font-size: 16px;
     }
 
     #logo {
-        width: 350px;
-        margin-left: 60px;
+        width: 280px;
+        margin-left: 40px;
         margin-top: 5px;
     }
 
     #pos_painel{
-        top: 87%;
+        top: 75%;
         right: 26%;
     }
 
