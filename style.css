@@ -124,7 +124,6 @@ main > img{
     height: 230px;
     display: inline-flex;
     position: relative;
-    
 }
 
 #god1{
@@ -224,9 +223,9 @@ main > img{
     }
 
     #resumo_inicio{
-        top: 450px;
-        width: 400px;
-        left: 14px;
+        top: 437px;
+        width: 380px;
+        left: 30px;
     }
 
     #resumo_inicio > h1 p{
