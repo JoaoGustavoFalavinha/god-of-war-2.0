@@ -53,8 +53,8 @@ nav a:visited{
 
 nav a:hover {
     color: #000000;
-    font-size: 26px;
     text-decoration: underline;
+    transform: scale(1.4);
 }
 
 main{
@@ -184,8 +184,5 @@ main > img{
 }
 
 .botao_acesse:hover {
-    background-color: black;
-    color: red;
-    cursor: pointer;
-    border: 2px solid red;
+    transform: scale(1.2);
 }
