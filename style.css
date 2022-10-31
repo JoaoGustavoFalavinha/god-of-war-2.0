@@ -124,6 +124,7 @@ main > img{
     height: 230px;
     display: inline-flex;
     position: relative;
+    
 }
 
 #god1{
@@ -184,5 +185,55 @@ main > img{
 }
 
 .botao_acesse:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: .3s;
+    background-color: black;
+    color: red;
+}
+
+@media (max-width: 480px) {
+    header{
+        height: 140px;
+    }
+
+    #logo{
+        width: 330px;
+        margin: auto;
+        display: block;
+    }
+
+    ul{
+        font-size: 20px;
+        margin: auto;
+        padding-top: 20px;
+        right: 16%;
+    }
+
+    .quadros{
+        display: block;
+        margin: 10px auto;
+    }
+
+    main{
+        height: 900px;
+    }
+
+    .imagem_resumo{
+        text-align: center;
+    }
+
+    #resumo_inicio{
+        top: 460px;
+        width: 400px;
+        left: 14px;
+    }
+
+    #resumo_inicio > h1 p{
+        font-size: 20px;
+    }   
+
+    #resumo_inicio > p{
+        font-size: 20px;
+    } 
 }
