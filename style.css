@@ -235,8 +235,8 @@ main > img{
 
     #resumo_inicio{
         top: 370px;
-    width: 380px;
-    left: 30px;
+        width: 340px;
+        left: 30px;
     }
 
     #resumo_inicio > h1 p{
